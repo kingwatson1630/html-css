@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "courgette", sans-serif;
+}
+
+h1 {
+    font-weight: 900;
+    text-align: center;
+    background-color: #F6F5AE;
+    color: #565554;
+    padding: 10px;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    font-weight: 900;
+    text-align: center;
+    background-color: #a1e4c5;
+    color: #565554;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+a {
+    font-size: 1.2rem;
+    text-decoration-color: #FE4A49;
+}
+
+span {
+    text-decoration: line-through red;
+}
+
+.box-1,
+.box-2,
+.box-3 {
+    width: 200px;
+    height: 200px;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.box-1 {
+    background: rgb(15, 223, 102);
+}
+
+.box-2 {
+    background: rgb(196, 13, 13)
+}
+
+.box-3 {
+    background: rgb(64, 10, 214);
+}
